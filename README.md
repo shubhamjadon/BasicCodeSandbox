@@ -7,18 +7,19 @@ Follow following steps to run this app in your pc:
 ```
 cd backend
 npm install
-node app.js
+npm start
 ```
 
-4. The above commands will start the nodejs server at port 8886 by default.(Note: If you just want to see project running then open [a link](http://localhost:8886/) as build of frontend have also been served from the backend.)
-5. After running server we need to start react development server. So, type following commands in the same Terminal window.
+4. The above commands will start the nodejs server at port 8886 by default.(Note: If you just want to see project running then open [http://localhost:8886/](http://localhost:8886/) as build of frontend have also been served from the backend.)
+5. If you still want to run react-development server the follow the steps below in a new terminal window:
 
 ```
-cd ../frontend
+cd frontend
 npm install
 npm start
 ```
 
-6. This will start the react development server on port 3000. Now you can open [a link](http://localhost:3000/) to see the app running.
+6. This will start the react development server here [http://localhost:3000/](http://localhost:3000/).
+7. If you change the default port of the nodejs backend then make sure to update the path variable in the file _frontend/src/Constants.js_.
 
 _Make sure you do not delete index.html from the virtual environment provided to you when you run this app as that is the entry file. so if you remove that then there will be no output in Preview._
