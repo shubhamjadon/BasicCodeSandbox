@@ -20,3 +20,5 @@ npm start
 ```
 
 6. This will start the react development server on port 3000. Now you can open [a link](http://localhost:3000/) to see the app running.
+
+_Make sure you do not delete index.html from the virtual environment provided to you when you run this app as that is the entry file. so if you remove that then there will be no output in Preview._
